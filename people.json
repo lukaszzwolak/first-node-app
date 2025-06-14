@@ -1,0 +1,162 @@
+[
+  {
+    "gender": "F",
+    "firstName": "Patricia",
+    "lastName": "Jones",
+    "age": 36,
+    "email": "patricia.jones@gmail.com",
+    "phone": "+48 501-678-680"
+  },
+  {
+    "gender": "F",
+    "firstName": "Mary",
+    "lastName": "Williams",
+    "age": 26,
+    "email": "mary.williams@gmail.com",
+    "phone": "+48 566-117-452"
+  },
+  {
+    "gender": "M",
+    "firstName": "James",
+    "lastName": "Williams",
+    "age": 37,
+    "email": "james.williams@gmail.com",
+    "phone": "+48 567-951-272"
+  },
+  {
+    "gender": "M",
+    "firstName": "John",
+    "lastName": "Brown",
+    "age": 61,
+    "email": "john.brown@gmail.com",
+    "phone": "+48 565-606-080"
+  },
+  {
+    "gender": "F",
+    "firstName": "Linda",
+    "lastName": "Johnson",
+    "age": 20,
+    "email": "linda.johnson@gmail.com",
+    "phone": "+48 598-691-192"
+  },
+  {
+    "gender": "M",
+    "firstName": "John",
+    "lastName": "Smith",
+    "age": 64,
+    "email": "john.smith@gmail.com",
+    "phone": "+48 552-991-847"
+  },
+  {
+    "gender": "F",
+    "firstName": "Elizabeth",
+    "lastName": "Smith",
+    "age": 29,
+    "email": "elizabeth.smith@gmail.com",
+    "phone": "+48 528-384-884"
+  },
+  {
+    "gender": "F",
+    "firstName": "Mary",
+    "lastName": "Williams",
+    "age": 19,
+    "email": "mary.williams@gmail.com",
+    "phone": "+48 513-688-284"
+  },
+  {
+    "gender": "M",
+    "firstName": "James",
+    "lastName": "Brown",
+    "age": 61,
+    "email": "james.brown@gmail.com",
+    "phone": "+48 592-212-002"
+  },
+  {
+    "gender": "M",
+    "firstName": "David",
+    "lastName": "Williams",
+    "age": 64,
+    "email": "david.williams@gmail.com",
+    "phone": "+48 564-984-167"
+  },
+  {
+    "gender": "M",
+    "firstName": "Robert",
+    "lastName": "Brown",
+    "age": 69,
+    "email": "robert.brown@gmail.com",
+    "phone": "+48 574-810-929"
+  },
+  {
+    "gender": "M",
+    "firstName": "David",
+    "lastName": "Brown",
+    "age": 60,
+    "email": "david.brown@gmail.com",
+    "phone": "+48 531-866-109"
+  },
+  {
+    "gender": "M",
+    "firstName": "Michael",
+    "lastName": "Jones",
+    "age": 19,
+    "email": "michael.jones@gmail.com",
+    "phone": "+48 509-440-595"
+  },
+  {
+    "gender": "F",
+    "firstName": "Patricia",
+    "lastName": "Williams",
+    "age": 41,
+    "email": "patricia.williams@gmail.com",
+    "phone": "+48 524-928-410"
+  },
+  {
+    "gender": "M",
+    "firstName": "Michael",
+    "lastName": "Williams",
+    "age": 68,
+    "email": "michael.williams@gmail.com",
+    "phone": "+48 588-117-889"
+  },
+  {
+    "gender": "F",
+    "firstName": "Jennifer",
+    "lastName": "Smith",
+    "age": 74,
+    "email": "jennifer.smith@gmail.com",
+    "phone": "+48 513-808-294"
+  },
+  {
+    "gender": "F",
+    "firstName": "Elizabeth",
+    "lastName": "Brown",
+    "age": 53,
+    "email": "elizabeth.brown@gmail.com",
+    "phone": "+48 589-967-854"
+  },
+  {
+    "gender": "M",
+    "firstName": "Michael",
+    "lastName": "Williams",
+    "age": 24,
+    "email": "michael.williams@gmail.com",
+    "phone": "+48 556-956-117"
+  },
+  {
+    "gender": "M",
+    "firstName": "John",
+    "lastName": "Williams",
+    "age": 55,
+    "email": "john.williams@gmail.com",
+    "phone": "+48 551-195-483"
+  },
+  {
+    "gender": "F",
+    "firstName": "Jennifer",
+    "lastName": "Brown",
+    "age": 48,
+    "email": "jennifer.brown@gmail.com",
+    "phone": "+48 538-224-320"
+  }
+]
