@@ -15,6 +15,8 @@ const App = () => {
     )}`;
   };
 
+  const formattedTime = useMemo(() => formatTime(time), [time]);
+
   return (
     <div>
       <h1>Protect your eyes</h1>
@@ -36,7 +38,7 @@ const App = () => {
       {status === "work" && <img src="./images/work.png" alt="work" />}
       {status === "rest" && <img src="./images/rest.png" alt="rest" />}
 
-      {status !== "off" && <div className="timer">{formatTime(time)}</div>}
+      {status !== "off" && <div className="timer">{formattedTime}</div>}
 
       {status === "off" && <button className="btn">Start</button>}
 
