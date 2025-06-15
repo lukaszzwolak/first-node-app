@@ -17,6 +17,11 @@ const App = () => {
 
   const formattedTime = useMemo(() => formatTime(time), [time]);
 
+  const playBell = () => {
+    const bell = new Audio("./sounds/bell.wav");
+    bell.play();
+  };
+
   const startTimer = () => {
     setTime(1200);
     setStatus("work");
