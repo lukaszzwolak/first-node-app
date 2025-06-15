@@ -1,5 +1,5 @@
-import React, { useState, useRef } from "react";
-import { render } from "react-dom";
+import React, { useState, useRef, useMemo } from "react";
+import { createRoot } from "react-dom/client";
 
 const App = () => {
   const [status, setStatus] = useState("off");
@@ -16,6 +16,15 @@ const App = () => {
   };
 
   const formattedTime = useMemo(() => formatTime(time), [time]);
+
+  const startTimer = () => {
+    setTime(1200);
+    setStatus("work");
+
+    timer.current = setInterval(() => {
+      setTime((prevTime) => prevTime - 1);
+    }, 1000);
+  };
 
   return (
     <div>
@@ -40,7 +49,11 @@ const App = () => {
 
       {status !== "off" && <div className="timer">{formattedTime}</div>}
 
-      {status === "off" && <button className="btn">Start</button>}
+      {status === "off" && (
+        <button className="btn" onClick={startTimer}>
+          Start
+        </button>
+      )}
 
       {status !== "off" && <button className="btn">Stop</button>}
 
@@ -48,4 +61,6 @@ const App = () => {
     </div>
   );
 };
-render(<App />, document.querySelector("#app"));
+
+const root = createRoot(document.querySelector("#app"));
+root.render(<App />);
