@@ -22,7 +22,18 @@ const App = () => {
     setStatus("work");
 
     timer.current = setInterval(() => {
-      setTime((prevTime) => prevTime - 1);
+      setTime((prevTime) => {
+        const newTime = prevTime - 1;
+
+        if (newTime <= 0) {
+          const nextStatus = status === "work" ? "rest" : "work";
+          const nextTime = nextStatus === "work" ? 1200 : 20;
+          setStatus(nextStatus);
+          return nextTime;
+        }
+
+        return newTime;
+      });
     }, 1000);
   };
 
