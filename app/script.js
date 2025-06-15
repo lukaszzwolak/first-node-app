@@ -37,6 +37,17 @@ const App = () => {
     }, 1000);
   };
 
+  const stopTimer = () => {
+    clearInterval(timer.current);
+    timer.current = null;
+    setTime(0);
+    setStatus("off");
+  };
+
+  const closeApp = () => {
+    window.close();
+  };
+
   return (
     <div>
       <h1>Protect your eyes</h1>
@@ -57,7 +68,6 @@ const App = () => {
 
       {status === "work" && <img src="./images/work.png" alt="work" />}
       {status === "rest" && <img src="./images/rest.png" alt="rest" />}
-
       {status !== "off" && <div className="timer">{formattedTime}</div>}
 
       {status === "off" && (
@@ -66,9 +76,15 @@ const App = () => {
         </button>
       )}
 
-      {status !== "off" && <button className="btn">Stop</button>}
+      {status !== "off" && (
+        <button className="btn" onClick={stopTimer}>
+          Stop
+        </button>
+      )}
 
-      <button className="btn btn-close">X</button>
+      <button className="btn btn-close" onClick={closeApp}>
+        X
+      </button>
     </div>
   );
 };
